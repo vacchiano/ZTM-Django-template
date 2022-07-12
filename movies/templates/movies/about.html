@@ -1,0 +1,8 @@
+{% extends 'movies/_base.html' %}
+{% load static %}
+
+<h1>About Us</h1>
+{% block content %}
+<p>These are my favorite movies, check them out!</p>
+<img src="{% static 'movies/fav-films.png' %}" alt="Favorite Movies Image">
+{% endblock content%}
